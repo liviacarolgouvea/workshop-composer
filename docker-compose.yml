@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+  ## CADA UM DESTES SERVIÇOS ABAIXOS É UM CONTAINER QUE LEVANTAREMOS NO TERMINAL COM O COMANDO "docker-compose <nome>"
+  php7:
+    build: .docker/php
+    volumes:
+      - .:/app
+      - ~/.composer:/root/.composer  ## MAPEANDO O CASH DO COMPOSER DO MEU USUÁRO NA PASTA DO CONTAINER
