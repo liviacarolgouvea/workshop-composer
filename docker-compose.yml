@@ -1,4 +1,4 @@
-version: '3.3'
+version: '2.0'
 services:
   ## CADA UM DESTES SERVIÇOS ABAIXOS É UM CONTAINER QUE LEVANTAREMOS NO TERMINAL COM O COMANDO "docker-compose <nome>"
   php7:
