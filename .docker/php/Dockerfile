@@ -17,3 +17,5 @@ WORKDIR /app
 
 ## COPIA ARQUIVO entrypoint.sh PARA DIRETÓRIOS
 COPY entrypoint.sh /usr/bin/entrypoint.sh
+
+ENTRYPOINT [ "sh", "/usr/bin/entrypoint.sh" ]
