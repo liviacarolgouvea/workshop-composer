@@ -11,6 +11,10 @@
     "support": {
         "issues": "https://github.com/liviacarolgouvea/workshop-composer/issues"
     },
+
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    
     "require": {
         "vlucas/phpdotenv": "^3.6"
     },
